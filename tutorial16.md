@@ -206,7 +206,7 @@ show ip bgp summary
 
 Look at the neighbor's `State/PfxRcd` column — a numeric value (e.g. `1`) means the peering is **Established** and a prefix has been received. If it instead shows `Idle` or `Active`, the peering hasn't come up yet — double check the serial link's IPs, the AS numbers, and that both interfaces show `no shutdown`.
 
-![Figure](../../img/cisco-tutorials/tutorial-16/fig5.png)
+![Figure](Screenshot/16.6.png)
 
 ### Step 5.2 – Inspect the BGP Table
 
@@ -216,7 +216,7 @@ show ip bgp
 
 You should see both `172.16.1.0/24` and `172.16.2.0/24` listed, each with its next-hop and AS path.
 
-![Figure](../../img/cisco-tutorials/tutorial-16/fig6.png)
+![Figure](Screenshot/16.7.png)
 
 ### Step 5.3 – Check Routing Tables
 
@@ -226,7 +226,7 @@ show ip route bgp
 
 You should see the remote LAN as a BGP route (`B`), learned entirely through the eBGP peering rather than a static entry or an IGP.
 
-![Figure](../../img/cisco-tutorials/tutorial-16/fig7.png)
+![Figure](Screenshot/16.8.png)
 
 ### Step 5.4 – Test Connectivity
 
@@ -242,7 +242,7 @@ From **PC2**, run:
 ping 172.16.1.10
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-16/fig8.png)
+![Figure](Screenshot/16.10.png)
 
 ---
 
