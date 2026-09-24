@@ -164,6 +164,8 @@ write memory
 exit
 ```
 
+![Figure](Screenshot/16.4.png)
+
 ### Step 4.2 – R1 Configuration (AS 200)
 
 ```bash
@@ -190,7 +192,7 @@ write memory
 exit
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-16/fig4.png)
+![Figure](Screenshot/16.5.png)
 
 ---
 
