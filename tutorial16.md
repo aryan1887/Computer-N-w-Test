@@ -39,7 +39,7 @@ This network includes:
 
 The goal is for PCs in AS 100 to reach PCs in AS 200 (and vice-versa) purely through BGP-advertised routes.
 
-![Figure](../../img/cisco-tutorials/tutorial-16/fig1.png)
+![Figure](Screenshot/16.1.png)
 
 ---
 
