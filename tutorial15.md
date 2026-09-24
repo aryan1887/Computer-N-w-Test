@@ -194,7 +194,7 @@ write memory
 exit
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-15/fig4.png)
+![Figure](Screenshot/15.4.png)
 
 ### Step 4.2 – R1 Configuration
 
@@ -229,7 +229,7 @@ write memory
 exit
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-15/fig4.png)
+![Figure](Screenshot/15.5.png)
 
 
 ### Step 4.3 – R2 Configuration
@@ -259,7 +259,7 @@ write memory
 exit
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-15/fig4.png)
+![Figure](Screenshot/15.6.png)
 
 ---
 
