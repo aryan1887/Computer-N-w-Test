@@ -273,7 +273,7 @@ show ip protocols
 
 Check that the output reads `Sending updates` / `Routing for Networks` with **"Sending version 2, Receiving version 2"** — if it still says version 1, double check the `version 2` line was entered inside `router rip` mode on every router.
 
-![Figure](../../img/cisco-tutorials/tutorial-15/fig5.png)
+![Figure](Screenshot/15.7.png)
 
 ### Step 5.2 – Check Routing Tables
 
@@ -287,7 +287,7 @@ You should see RIP routes (`R`) to all remote networks, each showing its **corre
 show ip route rip
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-15/fig6.png)
+![Figure](Screenshot/15.8.png)
 
 ### Step 5.3 – Test Connectivity
 
@@ -304,7 +304,7 @@ From **PC3**, ping **PC4**:
 ping 192.168.20.140
 ```
 
-![Figure](../../img/cisco-tutorials/tutorial-15/fig7.png)
+![Figure](Screenshot/15.9.png)
 
 Repeat pings between any devices across networks.
 
